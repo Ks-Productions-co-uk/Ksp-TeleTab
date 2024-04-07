@@ -79,7 +79,7 @@ function OpenTeleportMenu()
         })
     end
 
-    exports['Ksp-Menu']:openMenu(menuItems)
+    exports['qb-menu']:openMenu(menuItems)
 end
 
 -- Function for menu category selection
@@ -116,7 +116,7 @@ AddEventHandler('Ksp-TeleTab:openCategoryMenu', function(data)
         })
     end
 
-    exports['Ksp-Menu']:openMenu(menuItems)
+    exports['qb-menu']:openMenu(menuItems)
 end)
 
 -- Event handlers to pass cost
